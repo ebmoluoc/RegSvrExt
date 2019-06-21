@@ -12,41 +12,41 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-#define VERSION_MAJOR				1
-#define VERSION_MINOR				0
-#define VERSION_BUILD				0
-#define VERSION_REVISION			0
+#define VERSION_MAJOR			1
+#define VERSION_MINOR			0
+#define VERSION_BUILD			0
+#define VERSION_REVISION		0
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-#define IDI_ICON_MENU				100
-#define ICON_MENU_NAME_A			"app.ico"
+#define IDI_ICON_MENU			100
+#define ICON_MENU_NAME_A		"app.ico"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-#define SUBMENU_REGISTER			0
-#define SUBMENU_UNREGISTER			1
+#define SUBMENU_REGISTER		0
+#define SUBMENU_UNREGISTER		1
 
-#define SUBMENU_REGISTER_W			L"Register"
-#define SUBMENU_UNREGISTER_W		L"Unregister"
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
-#define PRODUCT_NAME_A				"Register Server"
-#define PRODUCT_NAME_W				WSTR(PRODUCT_NAME_A)
+#define SUBMENU_REGISTER_W		L"Register"
+#define SUBMENU_UNREGISTER_W	L"Unregister"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-#define PRODUCT_DESCRIPTION_A		"Register Server Shell Extension"
+#define PRODUCT_NAME_A			"Register Server"
+#define PRODUCT_NAME_W			WSTR(PRODUCT_NAME_A)
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-#define PRODUCT_COPYRIGHT_A			"Copyright (c) 2019 Philippe Coulombe"
+#define PRODUCT_DESCRIPTION_A	"Register Server Shell Extension"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-#define PRODUCT_HKCR_W				L"dllfile", L"ocxfile"
+#define PRODUCT_COPYRIGHT_A		"Copyright (c) 2019 Philippe Coulombe"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-#define PRODUCT_CLSID_W				L"{DC58635A-9173-4EA5-BFEC-45B5C688AA82}"
+#define PRODUCT_HKCR_W			L"dllfile", L"ocxfile"
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+#define PRODUCT_CLSID_W			L"{DC58635A-9173-4EA5-BFEC-45B5C688AA82}"

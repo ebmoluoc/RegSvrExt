@@ -206,7 +206,7 @@ BOOL Dll::Initialize(HMODULE handle)
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-HRESULT Dll::CanUnloadNow()
+HRESULT Dll::CanUnloadNow() const
 {
 	return refCount_ == 0 ? S_OK : S_FALSE;
 }

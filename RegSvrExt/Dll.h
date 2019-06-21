@@ -7,7 +7,7 @@ class Dll
 public:
 	Dll();
 	BOOL Initialize(HMODULE handle);
-	HRESULT CanUnloadNow();
+	HRESULT CanUnloadNow() const;
 	void AddRef();
 	void Release();
 
